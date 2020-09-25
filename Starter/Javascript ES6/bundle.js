@@ -89,3 +89,19 @@ var Matematica = /*#__PURE__*/function () {
 }();
 
 console.log(Matematica.soma(1, 2));
+var usuario = {
+  nome: "Millena"
+};
+usuario.nome = 'Banana';
+console.log(usuario);
+
+function teste(x) {
+  var y = 2;
+
+  if (x > 5) {
+    var _y = 4;
+    console.log(x, _y);
+  }
+}
+
+teste(10);
