@@ -108,3 +108,14 @@ console.log(newerArr);
 const testeObj = () => ({ nome: 'Diego'});
 
 console.log(testeObj());
+
+//Valores padrãoptimize
+
+// function newerSoma(a = 3,b = 6) {
+//   return a + b;
+// }
+
+const newerSoma = (a = 3,b = 6) => a + b;
+
+console.log(newerSoma(1));
+console.log(newerSoma());
