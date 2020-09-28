@@ -82,3 +82,29 @@ const find = arr.find(function(item){
 })
 
 console.log(find);
+
+//Arrow functions
+
+
+// const newerArr = arr.map((item) => {
+//   return item * 2;
+// })
+
+//  Apenas um parametro então não precisa do parentesis =====>
+
+// const newerArr = arr.map(item => {
+//   return item * 2;
+// })
+
+// Retorno de uma linha sem outras operações ======>
+
+const newerArr = arr.map(item => item * 2)
+
+console.log(newerArr);
+
+//const testeObj = () => { nome: 'Diego'} ====> não funciona porque as chaves são usadas para o corpo da funcão e confunde com o retorno de objeto
+// versão funcional da arrow function que retorna um objeto
+
+const testeObj = () => ({ nome: 'Diego'});
+
+console.log(testeObj());
